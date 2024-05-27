@@ -1,0 +1,135 @@
+<?php
+    // task 1
+    
+    // function check($num){
+    //     if ($num < 0) {
+    //     echo "Отрицательное число";
+    // } else {
+    //     echo "Не отрицательное число";
+    //     }
+    // }
+    
+    // $num = 3;
+    // check($num);
+    
+    
+    
+    // task 2
+    
+    // function length($str){
+    //     echo "Длина строки: " . strlen($str);
+    // }
+    
+    // length("Dlina stroki");
+    
+    
+    // task 3
+    
+//     function checkForA($str) {
+//     $found = false;
+//     for ($i = 0; $i < strlen($str); $i++) {
+//         if ($str[$i] == 'a') {
+//             $found = true;
+//             break;
+//         }
+//     }
+
+//     if ($found) {
+//         echo "да";
+//     } else {
+//         echo "нет";
+//     }
+// }
+
+// checkForA("Hello");
+
+
+<?php
+
+// task 4
+
+// function checkDivisibility($number) {
+//     echo ($number % 2 == 0) ? "Делится на 2\n" : "Не делится на 2\n";
+//     echo ($number % 3 == 0) ? "Делится на 3\n" : "Не делится на 3\n";
+//     echo ($number % 5 == 0) ? "Делится на 5\n" : "Не делится на 5\n";
+//     echo ($number % 6 == 0) ? "Делится на 6\n" : "Не делится на 6\n";
+//     echo ($number % 9 == 0) ? "Делится на 9\n" : "Не делится на 9\n";
+// }
+
+// $number = 180;
+// checkDivisibility($number);
+
+
+// task 5
+
+// function checkDivisibility($number) {
+//     echo ($number % 3 == 0) ? "Делится на 3\n" : "Не делится на 3\n";
+//     echo ($number % 5 == 0) ? "Делится на 5\n" : "Не делится на 5\n";
+//     echo ($number % 7 == 0) ? "Делится на 7\n" : "Не делится на 7\n";
+//     echo ($number % 11 == 0) ? "Делится на 11\n" : "Не делится на 11\n";
+// }
+
+// $number = 2134;
+// checkDivisibility($number);
+
+
+// task 6
+
+
+// function printLastCharacter($str) {
+//     if (strlen($str) > 0) {
+//         $lastChar = $str[strlen($str) - 1];
+//         echo "$lastChar";
+//     } else {
+//         echo "null";
+//     }
+// }
+
+// $string = "Hello, world";
+// printLastCharacter($string);
+
+
+
+// task 7
+
+
+// function calculateArea($a, $b, $c) {
+
+//     $s = ($a + $b + $c) / 2;
+    
+//     $area = sqrt($s * ($s - $a) * ($s - $b) * ($s - $c));
+    
+//     echo "$area\n";
+// }
+
+// $a = 3;
+// $b = 4;
+// $c = 5;
+// calculateArea($a, $b, $c);
+
+
+// task 8
+
+
+// function calculateArea($length, $width) {
+//     $area = $length * $width;
+//     echo "$area\n";
+// }
+
+// $length = 10;
+// $width = 5;
+// calculateArea($length, $width);
+
+
+// task 9
+
+// function Square($number) {
+//     $square = $number * $number;
+//     echo "$number: $square\n";
+// }
+
+// $number = 5;
+// Square($number);
+
+?>
+?>
